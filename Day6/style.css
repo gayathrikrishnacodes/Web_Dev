@@ -1,0 +1,364 @@
+/* SELECTOR */
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+/* HEADER SECTION */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254, 255, 255);
+    min-height: 80px;
+    width: 100%;
+    padding: 20px 40px;
+overflow: hidden;
+}
+
+.portfolio{
+    color: rgb(235, 102, 235);
+        text-shadow: 2px 2px 5px black;
+margin: 0%;
+}
+
+/* TITLE */
+@keyframes myAnimation {
+  
+}
+.title{
+    margin-top: 50px;
+font-size:xxx-large;
+   text-shadow:
+        0 0 5px violet,
+        0 0 10px violet,
+        0 0 20px purple;
+        animation-name: myAnimation;
+  animation-duration: 4s;
+
+}
+
+/* BODY */
+
+main{
+    padding: 20px;
+}
+body{
+    font-family: cursive;
+    background-color: rgb(235, 202, 237);
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+}
+/* NAVBAR */
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    gap: 30px;
+
+}
+ul li {
+float: right;
+}
+ul li a{
+    display: block;
+    color: rgb(201, 4, 250);
+    text-align: center;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+ul li a:hover{
+    background-color: rgb(245, 188, 245);
+    border-radius: 190px;
+    border: 2px solid violet;
+          transform: scale(1.03);
+
+}
+
+/* <!-- PROFILE IMAGE --> */
+.page{
+    display: none;
+}
+
+.page:target{
+    display: block;
+}
+
+.profile-img{
+    width: 300px;
+    display: block;
+    height: auto;
+    border-radius: 190px;
+    border: 2px solid rgb(14, 14, 14);
+    float: left;
+    box-shadow: 0 6px 10px aqua;
+    gap: 40px;
+    transform: scale(1.03);
+}
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+
+ /* PROFILE PARAGRAPH */
+
+.para1{
+    padding: 20px;
+    margin-top: 100px;
+}
+
+/* ABOUT */
+.img2{
+    width: 300px;
+    height: 450px;
+    border-radius: 190px;
+    border: 2px solid rgb(250, 249, 249);
+    float: left;
+    margin-left: 150px;
+    box-shadow: 0 6px 10px aqua;
+    gap: 40px;
+    transform: scale(1.03);
+    margin-right: 90px;
+}
+.para2{
+    text-align: center;
+    padding: 80px;
+    margin: 80px;
+}
+
+
+/* SKILLS */
+
+.hobby-head{
+    margin-top: 180px;
+}
+.hobby{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+padding: 100px;
+margin: 50px;
+list-style:circle;
+
+}
+.hobby li{
+       background-color:lavender;
+color:rgb(96, 90, 90);
+padding:15px 25px;
+border-radius:8px;
+font-weight:bold; 
+}
+.hobby li:hover{
+    background-color: violet;
+          transform: scale(1.03);
+
+}
+
+/* GALLERY SECTION */
+
+.gallerys{
+   
+display: grid;
+   justify-items: center; 
+     max-width: 1400px;
+     grid-template-columns: repeat(3,1fr);
+      margin: 0 auto;
+       padding: 20px 10px; 
+       margin: 0 auto;
+gap: 20px;
+
+}
+.gallerys img{
+    width: 300px;
+    height: 300px;
+    /* object-fit:contain; */
+    border-radius: 10px;
+            transition: transform 0.3s ease;
+
+}
+.gallerys img:hover{
+      transform: scale(1.03);
+              box-shadow: 0 6px 10px rgb(234, 0, 255);
+
+}
+
+
+
+details{
+    text-align:center;
+    margin-top:30px;
+}
+summary{
+    display:inline-block;
+    padding:12px 30px;
+    background-color:violet;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+    list-style:none;
+    transition:0.3s;
+    margin-bottom: 30px;
+}
+summary:hover{
+    background-color:purple;
+}
+
+/* CONTACT SECTION */
+
+form{
+    padding: 20px;
+    width: 60%;
+    margin: auto;    
+}
+
+input,textarea{
+    border-radius: 20px;
+}
+
+button{
+    background-color: whitesmoke;
+    color: rgb(16, 15, 15);
+    border: 1px solid black;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: violet;
+
+}
+
+
+#name:hover,#email:hover{
+        border-color: rgb(212, 25, 221);
+border: 2px solid violet;
+}
+#message{
+    width: 350px;
+    height: 130px;
+    border: 3px solid black;
+}
+#name,#email{
+    width: 200px;
+    height: 25px;
+    gap: 40px;
+}
+#message:hover{
+    border-color: rgb(212, 25, 221);
+}
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    /* padding: 20px; */
+}
+
+/* MEDIA QUERY SECTION */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: row;
+        align-items: center;
+        gap:3px;
+    }
+    .img2{
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 220px;
+    }
+    .para1{
+        
+    /* padding: 20px; */
+  margin-top:0;
+    padding:10px;
+    line-height:1.8; 
+}
+.para2{
+        margin: 20px;
+        padding: 20px;
+    }
+    .hobby{
+        grid-template-columns: repeat(2,1fr);
+justify-content: center;    }
+    .from{
+        width: 90%;
+    }
+    .text{
+        text-align: center;
+    }
+    .gallerys{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+
+ }
+#name:hover,#email:hover{
+        border-color: rgb(212, 25, 221);
+border: 2px solid violet;
+}
+form{
+    float: none;
+    justify-items: center;
+#message{
+    width: 250px;
+    border: 3px solid black;
+    display: block;
+    align-content: center;
+}
+#message:hover{
+    border-color: rgb(212, 25, 221);
+}
+.home-container{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home-content{
+    text-align: center;
+}
+.profile-img{
+        width: 220px;
+
+    display: block;
+justify-items: center; 
+margin: 20px auto;
+/* float: none; */
+
+}
+.img2{
+    width: 250px;
+    height: 350px;
+        box-shadow: 0 6px 10px aqua;
+
+}
+#name,#email{
+    float: none;
+    justify-items: center;
+}
+
+}}
