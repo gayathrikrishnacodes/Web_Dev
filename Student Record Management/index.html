@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width ,initial-scale=1.0"> 
+        <title>Student Management System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+                    <header>
+
+            <h1>Student Management System</h1>
+            <button id="addStudentBtn">Add Student +</button> 
+                        </header>
+
+            <form id="studentForm">
+                <label class="form-group">Name:</label>
+                <input  id="nameInput" type="text" placeholder="Enter Your Name...">
+                <label class="form-group">Age:</label>
+                <input id="ageInput" type="number" placeholder="Enter Age">
+                 <label class="form-group">ID:</label>
+                <input  id="studentInputId" type="number" placeholder="Enter ID">
+                <button id="saveBtn">Save</button>
+            </form>
+<div class="student-list">
+    <table>
+        <th>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Id</td>
+            </tr>
+            <tbody id="tableBody">
+
+            </tbody>
+        </th>
+    </table>
+</div>
+
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
