@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteNest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- <div class="logo">Pinch<span>ofYum</span></div> -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary" style="width: 900px; background-color: white;">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="font-size: 40px;font-family: Ink Free;color: orange;" href="#">Crave<span style="color: gray;">Craft</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-link active" aria-current="page" href="#">Recipes</li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search"  placeholder="🔍" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit" style="border-color: aliceblue; color: black; ">Search </button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+ <section id="home">
+    <div class="home-content">
+<h1 class="home-p">   Simple recipes made for real, actual, everyday life </h1>
+<p class="description">Discover delicious homemade recipes made with fresh ingredients and simple steps.</p>
+    </div>
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="dinner.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="salad.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="quick.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="healthy.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<section class="categories">
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img1.jpg" alt="">
+        <h4 class="cat-h">DINNER</h4>
+    </div>
+    </div>
+     <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img2.jpg" alt="">
+        <h4 class="cat-h">HEALTHY</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img3.jpg" alt="">
+        <h4 class="cat-h">CHEESY</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img4.jpg" alt="">
+        <h4 class="cat-h">NON-VEG</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img5.jpg" alt="">
+        <h4 class="cat-h">CHINESE</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img6.jpg" alt="">
+        <h4 class="cat-h">CHOCOLATE</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img7.jpg" alt="">
+        <h4 class="cat-h">MEAL PREP</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="img8.jpg" alt="">
+        <h4 class="cat-h">SOUP</h4>
+    </div>
+    </div>
+    <div class="cat-container">
+        <div class="cat-content">
+        <img class="cat-imgs" src="salad.png" alt="">
+        <h4 class="cat-h">SALAD</h4>
+    </div>
+    </div>
+   
+</section> 
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input class="search" type="text" placeholder=   "🔍 Search our recipes..." name="search">
+      <p class="search-p">or</p>
+      <button class="search-btn" type="submit">+View ALL Reciepe</button>
+    </form>
+  </div>
+  <section class="latest">
+    <p class="para"> <b>AS SEEN IN</b></p>
+        <div class="heads">
+
+    <h2 class="p1">BUZZFeeD</h2>
+    <h2 class="p2">PureWoW</h2>
+    <h3 class="p3">BRIT + CO</h3>
+    <h4 class="p4"> <b>POPSUGAR </b></h4>
+    <h6 class="p5">The Everygirl</h6>
+    <h1 class="p6">Kitchn</h1>
+    </div>
+  </section>
+  <section class="greatest">
+    <p><h3 style="font-family: Franklin Gothic Medium;
+   margin-left: 80px; margin: 60px; color: rgb(77, 9, 9);">Latest & Greatest</h3></p>
+    <div class="sum-container">
+    <img class="sum" src="sum-img.jpg" alt="">
+    <p class="s-para">July 10, 2026 <span style=" gap: 10px;
+    font-size:xx-large; color: black;"><br><b>35 Summer Produce Recipes For <br>Your Farmer’s Market Haul</b></span>
+    <br><span style="color: black;font-size: 20px;">Your go-to list of recipes to use all that sweet summer produce <br> from the farmer’s market! Corn, tomatoes, zucchini, strawberries,<br> and more! <br><br><span style="color: orange;font-size: x-large;">Continue Reading</span></p><br><br>
+<img class="freezer" src="freezer.jpg" alt=""> 
+  </div>
+    <div class="sum-container1">
+
+    <img class="sum" src="staw.jpg" alt="">
+    <p class="s-para">June 30, 2026 <span style=" gap: 10px;
+    font-size:xx-large; color: black; margin-top: 0;"><br><b>Easy Strawberry Pie</b></span>
+    <br><span style="color: black;font-size: 20px;">The easiest homemade strawberry pie with a graham cracker <br> crust, and dolloped with cream cheese whipped cream! Perfect <br>summer dessert! <br><br><span style="color: orange;font-size: x-large;">Continue Reading</span></p><br><br>
+  </div>
+
+        <div class="sum-container2">
+
+        <img class="sum" src="sum-dinner.jpg" alt="">
+    <p class="s-para">July 10, 2026 <span style=" gap: 10px;
+    font-size:xx-large; color: black;"><br><b>35 Summer Produce Recipes For <br>Your Farmer’s Market Haul</b></span>
+    <br><span style="color: black;font-size: 20px;">Your go-to list of recipes to use all that sweet summer produce <br> from the farmer’s market! Corn, tomatoes, zucchini, strawberries,<br> and more! <br><br><span style="color: orange;font-size: x-large;">Continue Reading</span></p><br><br>
+      </div>
+
+  </div>
+    </div>
+  </section>
+  <section>
+    <div class="view-more">
+        <button class="view-mores" >View More Recent Posts</button>
+    </div>
+  </section>
+  <section>
+        <div class="cus-container">
+       <div class="cus-card">
+        <p style="font-size: 18px;font-family: cursive;gap: 20px;line-height: 1.9;">Hi! I'm Jyo. <br> <span style="font-family: Brush Script MT; font-size: 30px;">Nice To Meet You</span> <br>
+             <span style="font-family: cursive;margin-top: 100px; text-align: center;">I’m a former 4th grade teacher,<br> now full time blogger. My <br> husband Bjork and I live in <br> Minnesota. Favorite things <br> include my camera, lake days, and <br>dark chocolate.</span> <br><br> <span><button style="background-color: rgba(67, 9, 67, 0.916); color: whitesmoke;">Learn More</button></span></p>
+               </div> 
+
+        <img style="height: 450px; margin-top: 100px; width: 400px; margin-right: 30px;" src="cooking1.jpg" alt="">
+        <img  style="height: 450px; margin-top: 100px;margin-right:90px ; width: 400px;" src="cooking2.jpg" alt="">
+    </div>
+  </section>
+  <section>
+    <div class="follow">
+        <div class="flw-container">
+            <p style="font-family: cursive; font-size: 40px;color: whitesmoke; margin-left: 60px; margin-top: 135px;" >Follow Us</p>
+            <img class="flw-img" src="wp.png" alt="">
+            <img class="flw-img" src="insta.png" alt="">
+            <img class="flw-img" src="fb.png" alt="">
+            <img class="flw-img" src="twitter.png" alt="">
+            <div class="flw-cont2">
+            <p class="sign">Sign Up <span style="font-size: 28px; font-family: cursive; color: white;"> For Email Updates</span></p><br><br>
+            <!-- <form>
+                <label for="fname" style="color: whitesmoke; font-size: 20px; margin-left: 50px;">FirstName</label>
+                <input type="text" style="height: 35px; width: 280px;"> 
+                
+</div>
+ <label for="fname" style="color: whitesmoke; font-size: 20px; margin-left: 50px; margin-top: 140px;">Email</label>
+                <input type="text" style="height: 35px; width: 280px;margin-top: 140px;">
+                <button style="width: 50px; height: 40px; color: whitesmoke; background-color: orange; margin-top: 138px;">Go</button>
+                    </form> -->
+                      <div style="display: flex;flex-direction: row; margin-left: 40px;">
+      <label for="fname"></label>
+    <input style="margin: 10px; width: 290px; height: 50px;" type="text" placeholder="FirstName">  <label for="fname"></label>
+    <input style=" margin: 10px;width: 290px; height: 50px;" type="text" placeholder="Email">
+    <button style=" margin: 10px;background-color: orange;color: aliceblue; height: 50px;width: 60px;">Go</button>
+ </div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="pin">
+<div class="pin-bor">
+    <p style="border: 1px solid black; width: 150px; text-align: center; height: 40px; background-color: rgb(146, 44, 131); color: whitesmoke; font-size: 20px;">Vegeterian</p>
+    <p style="border: 1px solid black; width: 150px; text-align: center; height: 40px; background-color: rgb(146, 44, 131); color: whitesmoke; font-size: 20px;">Quick + Easy</p>
+    <p style="border: 1px solid black; width: 250px; text-align: center; height: 40px; background-color: rgb(146, 44, 131); color: whitesmoke; font-size: 20px;">Popular On Pinterest</p>
+</div>
+<div class="pin-img">
+<div class="pin-imgs">
+    <img src="bang.jpg" alt="" style="width: 300px; height: 400px; margin-left:50px;gap: 50px;">
+    <p><b><h3 style="margin-left: 70px;"> Bang Bang Tofu</h3> </b></p>
+</div>
+<div class="pin-imgs">
+    <img src="veg.jpg" alt="" style="width: 300px; height: 400px; margin-left:50px;gap: 50px;">
+    <p><b><h3 style="margin-left: 70px;">45 Actually Delicious <br> Vegetarian <br> Dinner Recipes</h3> </b></p>
+</div>
+<div class="pin-imgs">
+    <img src="cheese.jpg" alt="" style="width: 300px; height: 400px; margin-left:50px;gap: 50px;">
+    <p><b><h3 style="margin-left: 70px;">Sheet Pan Breakfast <br> Burritos with Creamy <br> Chipotle Sauce</h3> </b></p>
+</div>
+<div class="pin-imgs">
+    <img src="kimchi.jpg" alt="" style="width: 300px; height: 400px; margin-left:50px;gap: 50px;">
+    <p><b><h3 style="margin-left: 70px;" >Teriyaki Tofu Bowls  <br>with Kimchi Mayo</h3> </b></p>
+</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div style="background-color:rgb(75, 74, 74); height: 500px; ">
+      <div style="display: flex;flex-direction: row;">
+      <img class="books" src="cookbook.jpg" alt="">
+      <div style="display: flex;flex-direction: column;">
+      <h1 style="font-family: Brush Script MT; color: orange; margin-left: 300px;margin-top: 100px;">Get It Now</h1>
+      <h2 style="font-family:Rockwell;margin-left: 230px; color: whitesmoke;">CraveCraft CookBook</h2>
+      <p style="font-size: 20px;color: white; text-align: center; margin-left: 150px;">The eBook includes our most popular 25 recipes in a <br> beautiful, easy to download format. Enter your email <br> and we'll send it right over!</p>
+      <div style="display: flex;flex-direction: row;">
+         </div>
+         <div style="display: flex;flex-direction: row; margin-left: 40px;">
+      <label for="fname"></label>
+    <input style="margin: 10px; width: 290px; height: 50px;" type="text" placeholder="FirstName">  <label for="fname"></label>
+    <input style=" margin: 10px;width: 290px; height: 50px;" type="text" placeholder="Email">
+    <button style=" margin: 10px;background-color: orange;color: aliceblue; height: 50px;width: 60px;">Go</button>
+   
+   </div>
+   </div> 
+    </div>
+    </div>
+  </section>
+</main>
+<footer style="height: 500px;background-color: whitesmoke;">
+  <div class="p-container" style="display: flex;flex-direction: row; gap: 50px;">
+<p style="margin-left: 200px;  margin-top: 100px;"> CraveCraft <br> About <br>Blog <br> Recipe Index <br>Blogging Resources <br>
+Income Reports <br>
+Sponsored Content <br>
+Media Mentions <br>
+Contact</p>
+<p style="margin-left: 150px;  margin-top: 100px;">
+Food & Recipes <br>
+Sugar Free January <br>
+Freezer Meals 101 <br>
+Quick and Easy Recipes <br>
+Instant Pot Recipes <br>
+Pasta Recipes <br>
+Vegan Recipes <br>
+Soup Recipes <br>
+Taco Recipes <br>
+Meal Prep Recipes</p>
+<div class="cont" style="width: 800px; height: 250px; background-color:  rgb(125, 44, 113) ; margin-top: 100px;margin-right: 50px;">
+<!-- <h2 style="font-family:Rockwell;margin-left: 230px; color: whitesmoke;">SignUp For Email Updates</h2> -->
+             <p class="sign">Sign Up <span style=" text-align: center; font-size: 28px; font-family: cursive; color: white;"> For Email Updates</span></p>
+
+      <p style="font-size: 20px;color: white; text-align: center;">Get a Free eCookbook with our top 25 recipes.</p>
+      <div style="display: flex;flex-direction: row;">
+         </div>
+         <div style="display: flex;flex-direction: row; margin-left: 40px;">
+      <label for="fname"></label>
+    <input style="margin: 10px; width: 290px; height: 50px;" type="text" placeholder="FirstName">  <label for="fname"></label>
+    <input style=" margin: 10px;width: 290px; height: 50px;" type="text" placeholder="Email">
+    <button style=" margin: 10px;background-color: orange;color: aliceblue; height: 50px;width: 60px;">Go</button>
+ </div>
+</div>
+</footer>
+<section>
+<div  style="display: flex; flex-direction: row;">
+  <img src="wp.png" alt="">
+  <img src="insta.png" alt="">
+  <img src="fb.png" alt="">
+  <img src="twitter.png" alt="">
+</div>
+</section>
+<section style="text-align: center; margin-bottom: 20px;">
+  &copy 2026 All Rights Reserved
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
